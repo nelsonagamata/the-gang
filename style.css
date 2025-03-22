@@ -164,15 +164,21 @@ nav ul li a {
 
 .more-info {
     text-align: center;
-    padding: 60px 0;
 }
 
+.more-info h2 {
+    margin: 50px 0 0;
+}
 
+.more-info p {
+    margin: 18px 0 35px;
+}
 
-    /* <div class="more-info" id="more-info">
-        <h2>Join our Fan Club</h2>
-        <p>Every week we have <span class="highlight">a party.</span> If you want to join us then join our fan club. Members will also receive pictures of us in all kins of shapes and sizes. Cool, huh?</p>
-        <button class="cta">Sign Me Up</button>
-    </div> */
-
-
+.highlight {
+    background-color: #ffadf9;
+    color: #ff3300;
+    padding: 5px 10px;
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 800;
+}
